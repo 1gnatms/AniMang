@@ -1,0 +1,132 @@
+/* Загальні стилі для тіла сторінки */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Заголовки */
+h1 {
+    font-size: 48px;
+    color: #ff6600;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #3333cc;
+    margin-bottom: 15px;
+}
+
+/* Секції */
+section {
+    margin: 30px 0;
+    padding: 10px;
+}
+
+/* Блоки з аніме-картками */
+.anime-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.anime-card {
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.anime-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.anime-card:hover {
+    transform: scale(1.05);
+}
+
+/* Списки аніме */
+.anime-list {
+    display: inline-block;
+    text-align: left;
+    list-style: none;
+    padding-left: 0;
+}
+
+.anime-list li {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+/* Таблиці */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #999;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Кнопки */
+button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #cc5200;
+}
+
+/* Відео */
+video {
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+/* Футер */
+footer {
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+/* Меню футера */
+footer a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+footer a:hover {
+    background-color: #ff6600;
+    color: white;
+    border-radius: 5px;
+}
+
+footer a:active {
+    background-color: #cc5200;
+    color: white;
+}
